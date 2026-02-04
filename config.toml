@@ -1,5 +1,5 @@
 # The base URL of the site; the only required configuration variable.
-base_url = "https://phi-game.github.io/gge"
+base_url = "https://phi-game.github.io/gge-notes"
 
 # The site theme to use.
 theme = "linkita"

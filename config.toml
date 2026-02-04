@@ -9,7 +9,21 @@ compile_sass = false
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = false
 
+taxonomies = [
+    { name = "tags" }
+]
+
 [markdown]
 
 [extra]
 # Put all your custom variables here
+
+# The top menu.
+# See "extra.menus".
+header_menu_name = "header_links"
+
+# Menus
+[extra.menus]
+header_links = [
+  { url = "$BASE_URL/tags/", name = "Tags" },
+]
